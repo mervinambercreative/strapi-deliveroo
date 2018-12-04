@@ -1,0 +1,31 @@
+{
+  "connection": "default",
+  "collectionName": "orders",
+  "info": {
+    "name": "order",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "comment": ""
+  },
+  "attributes": {
+    "address": {
+      "default": "",
+      "type": "string"
+    },
+    "city": {
+      "default": "",
+      "type": "string"
+    },
+    "dishes": {
+      "default": "",
+      "type": "json"
+    },
+    "amount": {
+      "default": "",
+      "type": "decimal"
+    }
+  }
+}
